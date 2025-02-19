@@ -1,0 +1,42 @@
+# dependencies
+coffeeMachine/my-app/node_modules/
+todo/my-app/node_modules/
+
+# Expo
+coffeeMachine/my-app/.expo/
+coffeeMachine/my-app/dist/
+coffeeMachine/my-app/web-build/
+coffeeMachine/my-app/expo-env.d.ts
+
+todo/my-app/.expo/
+todo/my-app/dist/
+todo/my-app/web-build/
+todo/my-app/expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
